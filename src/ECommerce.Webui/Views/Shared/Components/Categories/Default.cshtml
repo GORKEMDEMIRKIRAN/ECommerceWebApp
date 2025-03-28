@@ -1,0 +1,62 @@
+
+
+
+@* Bütün kategori bilgilerini listeliyor. *@
+
+@model List<Category>
+
+
+@{
+    var modelCount=Model.Count();
+}
+
+<div class="col">
+    <div class="row">
+        @* ======================================================== *@
+        <ul class="navbar-nav">   
+            @for(var i=0; i<modelCount; i++)
+            {
+                @if(i<=23)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link"
+                                asp-controller="Shop"
+                                asp-action="List"
+                                asp-route-category="@Model[i].Name"
+                                asp-route-page="1">
+                            @Model[i].Name
+                        </a>
+                    </li>
+                }
+            }
+        </ul>
+        @* ======================================================== *@
+    </div>
+    <div class="row">
+        @* ======================================================== *@
+        <ul class="navbar-nav">   
+            @for(var i=0; i<modelCount; i++)
+            {
+                @if(23<i)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link"
+                                asp-controller="Shop"
+                                asp-action="List"
+                                asp-route-category="@Model[i].Name"
+                                asp-route-page="1">
+                            @Model[i].Name
+                        </a>
+                    </li>
+                }
+            }
+        </ul>
+        @* ======================================================== *@
+    </div>
+</div>
+
+
+
+
+
+

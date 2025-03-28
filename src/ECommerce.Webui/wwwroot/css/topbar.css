@@ -1,0 +1,47 @@
+
+
+
+/* TOP-BAR SECTION */
+/* ============================ */
+#top-bar{
+    padding:10px;
+}
+
+#top-bar .row{
+    align-items: center;
+    row-gap: 5px;
+}
+/* BRAND */
+/* ============================ */
+
+#top-bar #brand{
+    color:var(--violet);
+    font-size: 20px;
+    font-weight: 500;
+}
+/* BUTTONS */
+/* ============================ */
+#top-bar #buttons .btn{
+    border: 1px solid grey;
+}
+
+#top-bar #buttons i{
+    color:var(--violet);
+}
+#top-bar #buttons span{
+    color:var(--violet);
+}
+/* SEARCH */
+/* ============================ */
+#top-bar #form{
+    display: flex;
+    border: 1px solid var(--violet);
+    border-radius: 10px;
+}
+#top-bar #form .btn{
+    background-color: var(--violet);
+    color: white;
+}
+/* ============================ */
+
+

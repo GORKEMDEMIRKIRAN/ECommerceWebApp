@@ -1,0 +1,16 @@
+
+
+
+
+#navbar{
+    border-top: 4px solid rgb(17, 5, 5);
+    background-color: var(--violet);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#navbar .row{
+    margin-left: 15px;
+}
+
+

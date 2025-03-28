@@ -1,0 +1,31 @@
+
+
+
+
+@* verilen sayfa bilgisi,kategori ve sayfada bulunacak ürün sayısını vererek gelen action bölümü *@
+
+@model ProductListViewModel
+
+
+<div class="col">
+    @* ================================================= *@
+    <div class="row-cols-md-4 row-cols-lg-5 row-cols-sm-2 row" id="itemCards">
+        @if(Model.productsData.Count()==0)
+        {
+            @await Html.PartialAsync("_noproduct")
+        }else{
+            @foreach(var product in Model.productsData)
+            {
+                @await Html.PartialAsync("_product",product)
+            }
+        }
+    </div>
+    @* ================================================= *@
+    <div class="row">
+        <div class="col">
+            
+        </div>
+    </div>
+    @* ================================================= *@
+
+</div>

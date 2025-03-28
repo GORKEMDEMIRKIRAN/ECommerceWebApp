@@ -1,0 +1,23 @@
+
+
+
+@* partialasync product bilgisi vererek ürünü bilgisini veririz. *@
+
+@model Product
+
+<div class="cols">
+    <div class="card" id="card">
+        <div class="like btn">
+            <i class="fa-regular fa-heart" id="sembol"></i>
+        </div>
+        <img src="@Model.ImageUrl">
+        <div class="card-body">
+            <p class="taksit">Peşin Fiyatına 9 taksit</p>
+            <p class="name">@Model.Name</p>
+        </div>
+        <div class="btn d-none" id="added">
+            <p class="basket">SEPETE EKLE</p>
+        </div>
+    </div>
+</div>
+

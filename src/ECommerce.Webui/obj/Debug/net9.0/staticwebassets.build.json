@@ -1,0 +1,2062 @@
+{
+  "Version": 1,
+  "Hash": "n/aK1d8+78UH2z9Z5ZcRN0KpsjqGXRKK/yaMcqf72GQ=",
+  "Source": "ECommerce.Webui",
+  "BasePath": "_content/ECommerce.Webui",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerce.Webui\\wwwroot",
+      "Source": "ECommerce.Webui",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\d07kfsa8ru-7vfkjr10ud.gz",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "js/layout#[.{fingerprint=7vfkjr10ud}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\js\\layout.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ck058fnv27",
+      "Integrity": "HGYi4JPykbtbN2zsqy2bfZ72ma3aDssPryQA5fouyxI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\js\\layout.js"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\ou3so6xqb3-a3tok5dxcv.gz",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/class#[.{fingerprint=a3tok5dxcv}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\class.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fnmfi5kzrz",
+      "Integrity": "a6Ykcof9FtNCqaG6e0AzLasKHVv2K28XTlVUIul0nFw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\class.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-fzf7vb1g1o.gz",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/cards#[.{fingerprint=fzf7vb1g1o}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8r1guc6ns4",
+      "Integrity": "5Bo6swygIYI3bDzR255XiFR7uQ6hryiBkb2cXoCTNFQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\sszbqpwmz6-jf8lj8433y.gz",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/navbar#[.{fingerprint=jf8lj8433y}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\navbar.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "czgoc14onh",
+      "Integrity": "+NtMkipun7Vk0RoQLtrQoRtdZoRieL1xnRrcioIcJEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\navbar.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\u8lcll4bjm-nletn9mq8q.gz",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/topbar#[.{fingerprint=nletn9mq8q}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\topbar.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "z6dssxa9m3",
+      "Integrity": "y9EpAFi0Sj99QPU7G62ZoR2q69Aj1395ABQz6OZnq84=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\topbar.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\x2w1fmd443-60r4ch7krc.gz",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/layout#[.{fingerprint=60r4ch7krc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\layout.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5m2hds4dgu",
+      "Integrity": "gztP9hbjeluxmzW+d834yu1bdxlr7TdazKfNHHKPbzU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/cards#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fzf7vb1g1o",
+      "Integrity": "q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cards.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\class.css",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/class#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3tok5dxcv",
+      "Integrity": "RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\class.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\layout.css",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/layout#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "60r4ch7krc",
+      "Integrity": "Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\navbar.css",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/navbar#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jf8lj8433y",
+      "Integrity": "Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\navbar.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\topbar.css",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "css/topbar#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nletn9mq8q",
+      "Integrity": "1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\topbar.css"
+    },
+    {
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\js\\layout.js",
+      "SourceId": "ECommerce.Webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\",
+      "BasePath": "_content/ECommerce.Webui",
+      "RelativePath": "js/layout#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7vfkjr10ud",
+      "Integrity": "U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\layout.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/cards.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-fzf7vb1g1o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002873563218"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Bo6swygIYI3bDzR255XiFR7uQ6hryiBkb2cXoCTNFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 10:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE="
+        }
+      ]
+    },
+    {
+      "Route": "css/cards.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 10:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE="
+        }
+      ]
+    },
+    {
+      "Route": "css/cards.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-fzf7vb1g1o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Bo6swygIYI3bDzR255XiFR7uQ6hryiBkb2cXoCTNFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 10:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Bo6swygIYI3bDzR255XiFR7uQ6hryiBkb2cXoCTNFQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/cards.fzf7vb1g1o.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-fzf7vb1g1o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002873563218"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Bo6swygIYI3bDzR255XiFR7uQ6hryiBkb2cXoCTNFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 10:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzf7vb1g1o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cards.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE="
+        }
+      ]
+    },
+    {
+      "Route": "css/cards.fzf7vb1g1o.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 10:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzf7vb1g1o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cards.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE="
+        }
+      ]
+    },
+    {
+      "Route": "css/cards.fzf7vb1g1o.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-fzf7vb1g1o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Bo6swygIYI3bDzR255XiFR7uQ6hryiBkb2cXoCTNFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 10:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzf7vb1g1o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cards.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Bo6swygIYI3bDzR255XiFR7uQ6hryiBkb2cXoCTNFQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.a3tok5dxcv.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\ou3so6xqb3-a3tok5dxcv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006666666667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a6Ykcof9FtNCqaG6e0AzLasKHVv2K28XTlVUIul0nFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3tok5dxcv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/class.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.a3tok5dxcv.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\class.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3tok5dxcv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/class.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.a3tok5dxcv.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\ou3so6xqb3-a3tok5dxcv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a6Ykcof9FtNCqaG6e0AzLasKHVv2K28XTlVUIul0nFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3tok5dxcv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/class.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a6Ykcof9FtNCqaG6e0AzLasKHVv2K28XTlVUIul0nFw="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\ou3so6xqb3-a3tok5dxcv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006666666667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a6Ykcof9FtNCqaG6e0AzLasKHVv2K28XTlVUIul0nFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\class.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RoE5owjX/G8r0RNu9lahFUVYyl0isrHnm8SECmQiGBk="
+        }
+      ]
+    },
+    {
+      "Route": "css/class.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\ou3so6xqb3-a3tok5dxcv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a6Ykcof9FtNCqaG6e0AzLasKHVv2K28XTlVUIul0nFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a6Ykcof9FtNCqaG6e0AzLasKHVv2K28XTlVUIul0nFw="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.60r4ch7krc.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\x2w1fmd443-60r4ch7krc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002967359050"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "336"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gztP9hbjeluxmzW+d834yu1bdxlr7TdazKfNHHKPbzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:45:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "60r4ch7krc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/layout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.60r4ch7krc.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\layout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:45:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "60r4ch7krc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/layout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.60r4ch7krc.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\x2w1fmd443-60r4ch7krc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gztP9hbjeluxmzW+d834yu1bdxlr7TdazKfNHHKPbzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:45:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "60r4ch7krc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/layout.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gztP9hbjeluxmzW+d834yu1bdxlr7TdazKfNHHKPbzU="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\x2w1fmd443-60r4ch7krc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002967359050"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "336"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gztP9hbjeluxmzW+d834yu1bdxlr7TdazKfNHHKPbzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:45:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\layout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:45:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\x2w1fmd443-60r4ch7krc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gztP9hbjeluxmzW+d834yu1bdxlr7TdazKfNHHKPbzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 16:45:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gztP9hbjeluxmzW+d834yu1bdxlr7TdazKfNHHKPbzU="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\sszbqpwmz6-jf8lj8433y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006329113924"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+NtMkipun7Vk0RoQLtrQoRtdZoRieL1xnRrcioIcJEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 14:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\navbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 14:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\sszbqpwmz6-jf8lj8433y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+NtMkipun7Vk0RoQLtrQoRtdZoRieL1xnRrcioIcJEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 14:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+NtMkipun7Vk0RoQLtrQoRtdZoRieL1xnRrcioIcJEY="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.jf8lj8433y.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\sszbqpwmz6-jf8lj8433y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006329113924"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+NtMkipun7Vk0RoQLtrQoRtdZoRieL1xnRrcioIcJEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 14:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jf8lj8433y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/navbar.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.jf8lj8433y.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\navbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 14:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jf8lj8433y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/navbar.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI="
+        }
+      ]
+    },
+    {
+      "Route": "css/navbar.jf8lj8433y.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\sszbqpwmz6-jf8lj8433y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+NtMkipun7Vk0RoQLtrQoRtdZoRieL1xnRrcioIcJEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 14:38:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jf8lj8433y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/navbar.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+NtMkipun7Vk0RoQLtrQoRtdZoRieL1xnRrcioIcJEY="
+        }
+      ]
+    },
+    {
+      "Route": "css/topbar.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\u8lcll4bjm-nletn9mq8q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003115264798"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y9EpAFi0Sj99QPU7G62ZoR2q69Aj1395ABQz6OZnq84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI="
+        }
+      ]
+    },
+    {
+      "Route": "css/topbar.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\topbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI="
+        }
+      ]
+    },
+    {
+      "Route": "css/topbar.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\u8lcll4bjm-nletn9mq8q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y9EpAFi0Sj99QPU7G62ZoR2q69Aj1395ABQz6OZnq84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y9EpAFi0Sj99QPU7G62ZoR2q69Aj1395ABQz6OZnq84="
+        }
+      ]
+    },
+    {
+      "Route": "css/topbar.nletn9mq8q.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\u8lcll4bjm-nletn9mq8q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003115264798"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y9EpAFi0Sj99QPU7G62ZoR2q69Aj1395ABQz6OZnq84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nletn9mq8q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/topbar.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI="
+        }
+      ]
+    },
+    {
+      "Route": "css/topbar.nletn9mq8q.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\topbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nletn9mq8q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/topbar.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI="
+        }
+      ]
+    },
+    {
+      "Route": "css/topbar.nletn9mq8q.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\u8lcll4bjm-nletn9mq8q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y9EpAFi0Sj99QPU7G62ZoR2q69Aj1395ABQz6OZnq84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nletn9mq8q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/topbar.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y9EpAFi0Sj99QPU7G62ZoR2q69Aj1395ABQz6OZnq84="
+        }
+      ]
+    },
+    {
+      "Route": "js/layout.7vfkjr10ud.js",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\d07kfsa8ru-7vfkjr10ud.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002257336343"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HGYi4JPykbtbN2zsqy2bfZ72ma3aDssPryQA5fouyxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7vfkjr10ud"
+        },
+        {
+          "Name": "label",
+          "Value": "js/layout.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g="
+        }
+      ]
+    },
+    {
+      "Route": "js/layout.7vfkjr10ud.js",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\js\\layout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7vfkjr10ud"
+        },
+        {
+          "Name": "label",
+          "Value": "js/layout.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g="
+        }
+      ]
+    },
+    {
+      "Route": "js/layout.7vfkjr10ud.js.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\d07kfsa8ru-7vfkjr10ud.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HGYi4JPykbtbN2zsqy2bfZ72ma3aDssPryQA5fouyxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7vfkjr10ud"
+        },
+        {
+          "Name": "label",
+          "Value": "js/layout.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HGYi4JPykbtbN2zsqy2bfZ72ma3aDssPryQA5fouyxI="
+        }
+      ]
+    },
+    {
+      "Route": "js/layout.js",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\d07kfsa8ru-7vfkjr10ud.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002257336343"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HGYi4JPykbtbN2zsqy2bfZ72ma3aDssPryQA5fouyxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g="
+        }
+      ]
+    },
+    {
+      "Route": "js/layout.js",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\js\\layout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U9xV24WQtXoXoHF9zMRLrDP5MZkvSynuyioovfq0x5g="
+        }
+      ]
+    },
+    {
+      "Route": "js/layout.js.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\d07kfsa8ru-7vfkjr10ud.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HGYi4JPykbtbN2zsqy2bfZ72ma3aDssPryQA5fouyxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:02:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HGYi4JPykbtbN2zsqy2bfZ72ma3aDssPryQA5fouyxI="
+        }
+      ]
+    }
+  ]
+}

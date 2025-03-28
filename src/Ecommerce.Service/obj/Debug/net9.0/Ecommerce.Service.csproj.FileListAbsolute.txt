@@ -1,0 +1,34 @@
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Service.deps.json
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Service.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Service.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Core.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Data.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.csproj.AssemblyReference.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.AssemblyInfoInputs.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.AssemblyInfo.cs
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerc.B292E58B.Up2Date
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\refint\Ecommerce.Service.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\ref\Ecommerce.Service.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Service.deps.json
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Service.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Service.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Core.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\bin\Debug\net9.0\Ecommerce.Data.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.csproj.AssemblyReference.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.AssemblyInfoInputs.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.AssemblyInfo.cs
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerc.B292E58B.Up2Date
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\refint\Ecommerce.Service.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\ref\Ecommerce.Service.dll

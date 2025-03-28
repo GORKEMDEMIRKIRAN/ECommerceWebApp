@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
+      "PackagePath": "staticwebassets\\css\\cards.css"
+    },
+    {
+      "Id": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\class.css",
+      "PackagePath": "staticwebassets\\css\\class.css"
+    },
+    {
+      "Id": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
+      "Id": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\topbar.css",
+      "PackagePath": "staticwebassets\\css\\topbar.css"
+    },
+    {
+      "Id": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\js\\layout.js",
+      "PackagePath": "staticwebassets\\js\\layout.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ECommerce.Webui.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ECommerce.Webui.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ECommerce.Webui.props",
+      "PackagePath": "build\\ECommerce.Webui.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ECommerce.Webui.props",
+      "PackagePath": "buildMultiTargeting\\ECommerce.Webui.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ECommerce.Webui.props",
+      "PackagePath": "buildTransitive\\ECommerce.Webui.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

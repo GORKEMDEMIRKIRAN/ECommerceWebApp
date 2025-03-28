@@ -1,0 +1,22 @@
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\bin\Debug\net9.0\Ecommerce.Core.deps.json
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\bin\Debug\net9.0\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\bin\Debug\net9.0\Ecommerce.Core.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.AssemblyInfoInputs.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.AssemblyInfo.cs
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\refint\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\ref\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\bin\Debug\net9.0\Ecommerce.Core.deps.json
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\bin\Debug\net9.0\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\bin\Debug\net9.0\Ecommerce.Core.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.AssemblyInfoInputs.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.AssemblyInfo.cs
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\refint\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\ref\Ecommerce.Core.dll

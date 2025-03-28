@@ -1,0 +1,34 @@
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Data.deps.json
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Data.runtimeconfig.json
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Data.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Core.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.csproj.AssemblyReference.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.AssemblyInfoInputs.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.AssemblyInfo.cs
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerc.17EFF45D.Up2Date
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\refint\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.pdb
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.genruntimeconfig.cache
+C:\Users\gorke\Desktop\MVC PROJECTS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\ref\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Data.deps.json
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Data.runtimeconfig.json
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Data.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\bin\Debug\net9.0\Ecommerce.Core.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.csproj.AssemblyReference.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.AssemblyInfoInputs.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.AssemblyInfo.cs
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerc.17EFF45D.Up2Date
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\refint\Ecommerce.Data.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.pdb
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\Ecommerce.Data.genruntimeconfig.cache
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Data\obj\Debug\net9.0\ref\Ecommerce.Data.dll

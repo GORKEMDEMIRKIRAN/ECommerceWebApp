@@ -1,0 +1,56 @@
+
+
+
+@* NAVBAR REGION SEARCH,LOG,REGITER *@
+
+
+<section id="top-bar">
+    <div class="container">
+        <div class="row">
+           
+           @* ================================= *@
+            <!-- e-commerce region -->
+            <div class="col-lg-2 col-sm-4 col-4 order-lg-first">
+                <a asp-controller="Home" asp-action="Index" class="navbar-brand" id="brand">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    E-Commerce
+                </a>
+            </div>
+            @* ================================= *@
+            <!-- buttons region -->
+            <div class="col-lg-5 col-sm-8 col-8 order-lg-last">
+                <div id="buttons">
+                    <a href="" class="btn">
+                        <span>Log In</span>
+                    </a>
+                    <a href="" class="btn">
+                        <span>Register</span>
+                    </a>
+                    <a href="" class="btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span>My Basket</span>
+                    </a>
+                    <a href="" class="btn">
+                        <i class="fa-solid fa-user"></i>
+                        <span>My Account</span>
+                    </a>
+                    <a href="" class="btn">
+                        <span>Log Out</span>
+                    </a>
+                </div>
+            </div>
+            @* ================================= *@
+            <!-- search region -->
+            <div class="col-lg-5">
+                <form id="form">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button class="btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            @* ================================= *@
+
+        </div>
+    </div>
+</section>

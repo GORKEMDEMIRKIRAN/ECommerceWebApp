@@ -1,0 +1,42 @@
+
+
+/* BODY */
+/* ============================ */
+body{
+    font-family: "Kanit",serif;
+    font-weight: 300;
+    font-style: normal;
+}
+/* ============================ */
+/* ORTAK RENKLER */
+:root{
+    --violet:#5e2b72;
+}
+
+
+
+/* NAV-BAR SECTION */
+/* ============================ */
+/* TOPBAR SECTION */
+/* ============================ */
+/* CARDS SECTION*/
+/* ============================ */ 
+
+
+
+/* FOOTER SECTION */
+/* ============================ */
+#footer{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: var(--violet);
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+}
+#footer .footer-text{
+    text-align: start;
+    margin-top: 2%;
+}
+/* ============================ */

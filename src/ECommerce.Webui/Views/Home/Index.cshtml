@@ -1,0 +1,29 @@
+
+
+@model List<Product>
+
+
+
+<div class="row-cols-md-4 row-cols-lg-5 row-cols-sm-2 row" id="itemCards">
+    @foreach(var item in Model)
+    {
+        <div class="col">
+            @* ============================== *@
+            <div class="card" id="card">
+                <div class="like btn">
+                    <i class="fa-regular fa-heart" id="sembol"></i>
+                </div>
+                <img  src="@item.ImageUrl">
+                <div class="card-body">
+                    <p class="taksit">Peşin Fiyatına 9 taksit</p>
+                    <p class="name">@item.Name</p>
+                    <p class="price">@item.Price TL</p>
+                </div>
+                <div class="btn d-none" id="added">
+                    <p class="basket">SEPETE EKLE</p>
+                </div>
+            </div>
+            @* ============================== *@
+        </div>
+    }
+</div>
