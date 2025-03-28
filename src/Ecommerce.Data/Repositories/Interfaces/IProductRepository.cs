@@ -17,7 +17,7 @@ namespace Ecommerce.Data.Repositories.Interfaces
         //===================================================
         List<Product> GetHomePageProducts();
         List<Product> GetAllProducts();
-        Product GetProductDetails(string url);
+        Product GetProductDetails(int id);
         List<Product> GetSearchResult(string searchString);
         List<Product> GetProductsByCategory(string name,int page,int pageSize);
         int GetCountByCategory(string category);

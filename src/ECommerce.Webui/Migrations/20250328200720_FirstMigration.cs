@@ -7,7 +7,7 @@
 namespace ECommerce.Webui.Migrations
 {
     /// <inheritdoc />
-    public partial class one : Migration
+    public partial class FirstMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

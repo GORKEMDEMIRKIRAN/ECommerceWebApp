@@ -6,7 +6,7 @@
 @model Product
 
 <div class="cols">
-    <div class="card" id="card">
+    <a asp-controller="Shop" asp-action="Details" asp-route-id="@Model.ProductId" class="card" id="card">
         <div class="like btn">
             <i class="fa-regular fa-heart" id="sembol"></i>
         </div>
@@ -18,6 +18,6 @@
         <div class="btn d-none" id="added">
             <p class="basket">SEPETE EKLE</p>
         </div>
-    </div>
+    </a>
 </div>
 

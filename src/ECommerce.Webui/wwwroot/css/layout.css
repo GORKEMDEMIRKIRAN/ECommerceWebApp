@@ -6,6 +6,8 @@ body{
     font-family: "Kanit",serif;
     font-weight: 300;
     font-style: normal;
+    width: 100%;
+    
 }
 /* ============================ */
 /* ORTAK RENKLER */
@@ -34,9 +36,11 @@ body{
     /* position: fixed;
     bottom: 0;
     width: 100%; */
+    width: 100%;
 }
 #footer .footer-text{
     text-align: start;
     margin-top: 2%;
+    
 }
 /* ============================ */

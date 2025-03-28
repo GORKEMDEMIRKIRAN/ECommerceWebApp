@@ -86,10 +86,10 @@ namespace Ecommerce.Data.Repositories.DataAccess.EfCore
             return products.Count();
         }
         //==================================================================
-        public Product GetProductDetails(string url)
+        public Product GetProductDetails(int id)
         {
             var prd=_context.products
-                            .Where(p => p.Url.ToLower().Trim() == url.ToLower().Trim())
+                            .Where(p => p.ProductId.Equals(id))
                             .FirstOrDefault();
             return prd;
         }

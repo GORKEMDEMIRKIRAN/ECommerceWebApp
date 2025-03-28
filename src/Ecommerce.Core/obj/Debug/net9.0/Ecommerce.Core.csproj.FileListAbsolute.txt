@@ -20,3 +20,4 @@ C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\refint\Ecommerce.Core.dll
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.pdb
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\ref\Ecommerce.Core.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Core\obj\Debug\net9.0\Ecommerce.Core.sourcelink.json

@@ -349,11 +349,7 @@ C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debu
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\ECommerce.Webui.RazorAssemblyInfo.cache
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\ECommerce.Webui.RazorAssemblyInfo.cs
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\scopedcss\bundle\ECommerce.Webui.styles.css
-C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\pgk9wuxz0w-fzf7vb1g1o.gz
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\ou3so6xqb3-a3tok5dxcv.gz
-C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\x2w1fmd443-60r4ch7krc.gz
-C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\sszbqpwmz6-jf8lj8433y.gz
-C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\u8lcll4bjm-nletn9mq8q.gz
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\d07kfsa8ru-7vfkjr10ud.gz
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\staticwebassets.development.json
@@ -370,3 +366,8 @@ C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debu
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\ECommerce.Webui.pdb
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\ECommerce.Webui.genruntimeconfig.cache
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\ref\ECommerce.Webui.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\ECommerce.Webui.sourcelink.json
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\sszbqpwmz6-1ao49gc6i1.gz
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\pgk9wuxz0w-qc2w1cttit.gz
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\x2w1fmd443-cgjftylx2j.gz
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\ECommerce.Webui\obj\Debug\net9.0\compressed\u8lcll4bjm-hydv6iqzk3.gz

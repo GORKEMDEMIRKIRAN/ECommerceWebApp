@@ -46,4 +46,25 @@
     height: 40px;
     font-size: 15px;
 }
+
+
+/* Product Details card */
+#detailsCard{
+    margin:20px;
+}
+
+#detailsCard #detailsBar{
+    margin-top: 40px;
+}
+
+#detailsCard #detailsBar .col{
+    padding: 10px;
+    border-top: 1px solid rgb(228, 169, 7);
+    border-bottom: 1px solid rgb(228, 169, 7);
+    font-weight: 300;
+    color: grey;
+    text-align: center;
+}
+
+
 /* ============================ */

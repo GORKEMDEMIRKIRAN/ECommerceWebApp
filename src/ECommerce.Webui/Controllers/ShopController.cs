@@ -36,6 +36,21 @@ namespace ECommerce.Webui.Controllers
             return View(sendModel);
         }
         //=============================================
+        // productId ile o ürünün detayını getirelim.
+        public IActionResult Details(int id)
+        {
+            var prdt= _serviceManager.productService.GetProductDetails(id);
+            if(prdt == null)
+            {
+                return NotFound();
+            }
+            var sendModel = new ProductDetailModel()
+            {
+                product = prdt,
+                //categories = prdt.ProductCategories.Select(c=>c.category).ToList()
+            };
+            return View(sendModel);
+        }  
         //=============================================
 
 

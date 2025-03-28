@@ -32,3 +32,4 @@ C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\De
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\refint\Ecommerce.Service.dll
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.pdb
 C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\ref\Ecommerce.Service.dll
+C:\Users\gorke\Desktop\GITHUB-SECTIONS\ECommerceApp\src\Ecommerce.Service\obj\Debug\net9.0\Ecommerce.Service.sourcelink.json

@@ -1,0 +1,83 @@
+
+
+
+@model ProductDetailModel
+
+
+<div id="detailsCard">
+
+    <div class="col">
+
+        <div class="row">
+            @* ================================ *@
+            <div class="col-3">
+
+                <div class="card">
+                    <img class="card-top" src="@Model.product.ImageUrl" alt="image">
+                </div>
+
+            </div>
+            @* ================================ *@
+            <div class="col-9">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4>@Model.product.Description</h4>
+                        <p>@Model.product.Price TL</p>
+                        <div class="btn btn-primary">
+                            Sepete Ekle
+                        </div>
+                        <div class="btn btn-warning">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            @* ================================ *@
+        </div>
+
+        <div class="row-cols-md-6 row-cols-lg-6 row-cols-sm-3 row" id="detailsBar">
+               
+            @* ============= *@
+            <div class="col">
+                <a class="nav-link">
+                    Ürün Açıklaması
+                </a>
+            </div>
+            @* ============= *@
+            <div class="col">
+                <a class="nav-link">
+                    Değerlendirme
+                </a>
+            </div>
+            @* ============= *@
+            <div class="col">
+                <a class="nav-link">
+                    Soru Cevap
+                </a>
+            </div>
+            @* ============= *@
+            <div class="col">
+                <a class="nav-link">
+                    Kredi Kart Taksitleri
+                </a>
+            </div>
+            @* ============= *@
+            <div class="col">
+                <a class="nav-link">
+                    Alışveriş Kredisi
+                </a>
+            </div>
+            @* ============= *@
+            <div class="col">
+                <a class="nav-link">
+                    İptal ve İade Koşulları
+                </a>
+            </div>                
+            @* ============= *@
+           
+        </div>
+    </div>
+</div>
+

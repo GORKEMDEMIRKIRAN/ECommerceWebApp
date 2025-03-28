@@ -37,6 +37,12 @@ namespace ECommerce.Webui.Models
         }
     }
 
+    public class ProductDetailModel
+    {
+        public Product? product {get;set;}
+        public List<Category>? categories {get;set;}
+    }
+
 
 
 

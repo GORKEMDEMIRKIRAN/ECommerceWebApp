@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ECommerce.Webui.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250326235625_one")]
-    partial class one
+    [Migration("20250328200720_FirstMigration")]
+    partial class FirstMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

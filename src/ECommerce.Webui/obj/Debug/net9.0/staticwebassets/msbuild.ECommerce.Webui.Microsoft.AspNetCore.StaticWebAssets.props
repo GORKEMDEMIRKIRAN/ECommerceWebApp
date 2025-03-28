@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fzf7vb1g1o</Fingerprint>
-      <Integrity>q+c4rPTSQ8AT+oYdlGpYAErUAoMO+JmpLsePhPgLIHE=</Integrity>
+      <Fingerprint>qc2w1cttit</Fingerprint>
+      <Integrity>6jTYyBfl7wZ+LGfI6wA9o/lrh5ufelLl8vuISjng71s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cards.css'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>60r4ch7krc</Fingerprint>
-      <Integrity>Sr4CJNZLbv+YX2oc3Ytth9SItf6tjqXFoR8r64Y25ko=</Integrity>
+      <Fingerprint>cgjftylx2j</Fingerprint>
+      <Integrity>PKWMWVzrFUpgu79wN0m4QVuMlstRUaZS3mL0vNhZ+wQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\layout.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jf8lj8433y</Fingerprint>
-      <Integrity>Ec+Su9i9hg/7/0wvC6JFv6RPTygDWsVKyuI7loOQwdI=</Integrity>
+      <Fingerprint>1ao49gc6i1</Fingerprint>
+      <Integrity>F4N7LnXeWKfH3RibOIBJ2wlJcX+EzUXxC5FgaRruSQY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\navbar.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nletn9mq8q</Fingerprint>
-      <Integrity>1fUPVD1h0a/x2hVDG3I4ci1or7a3vN0wqjKNfF4JiwI=</Integrity>
+      <Fingerprint>hydv6iqzk3</Fingerprint>
+      <Integrity>aQba+2U7U7FGvvM1K5bFNyhPLsayW4l2sqoMIfMoIq0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\topbar.css'))</OriginalItemSpec>

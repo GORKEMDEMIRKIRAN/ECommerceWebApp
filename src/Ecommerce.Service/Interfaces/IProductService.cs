@@ -15,7 +15,7 @@ namespace Ecommerce.Service.Interfaces
     {
         List<Product> GetAllProducts();
         List<Product> GetHomePageProducts();
-        Product GetProductDetails(string url);
+        Product GetProductDetails(int id);
         List<Product> GetSearchResult(string searchString);
         List<Product> GetProductsByCategory(string name,int page,int pageSize);
 

@@ -37,9 +37,9 @@ namespace Ecommerce.Service.Concrete
             return _repositorymanager.productRepository.GetCountByCategory(category);
         }
         //===================================================
-        public Product GetProductDetails(string url)
+        public Product GetProductDetails(int id)
         {
-            return _repositorymanager.productRepository.GetProductDetails(url);
+            return _repositorymanager.productRepository.GetProductDetails(id);
         }
         //===================================================
         public List<Product> GetSearchResult(string searchString)
