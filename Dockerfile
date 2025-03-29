@@ -18,6 +18,10 @@ RUN dotnet publish "ECommerce.Webui.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+
+# Veritabanı dosyası kopyalama (gerekirse)
+COPY ECommerceDb /app/ECommerceDb
+
 # Migration'ları çalıştır
 RUN dotnet ef database update --project ECommerce.Webui.csproj --startup-project ECommerce.Webui.csproj
 ENTRYPOINT ["dotnet", "ECommerce.Webui.dll"]
