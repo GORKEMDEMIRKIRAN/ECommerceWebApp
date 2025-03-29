@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ECommerce.Webui/css/cards.44kkp14xxv.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cards.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"44kkp14xxv"},{"Name":"integrity","Value":"sha256-1H8Zd9WIBB8WSpLiXjeG\u002BnXeALjBM2R47/L5T6lFYnY="},{"Name":"label","Value":"_content/ECommerce.Webui/css/cards.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1205"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221H8Zd9WIBB8WSpLiXjeG\u002BnXeALjBM2R47/L5T6lFYnY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 23:44:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ECommerce.Webui/css/cards.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cards.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6jTYyBfl7wZ\u002BLGfI6wA9o/lrh5ufelLl8vuISjng71s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"866"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226jTYyBfl7wZ\u002BLGfI6wA9o/lrh5ufelLl8vuISjng71s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 21:17:17 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerce.Webui/css/cards.qc2w1cttit.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cards.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qc2w1cttit"},{"Name":"integrity","Value":"sha256-6jTYyBfl7wZ\u002BLGfI6wA9o/lrh5ufelLl8vuISjng71s="},{"Name":"label","Value":"_content/ECommerce.Webui/css/cards.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"866"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226jTYyBfl7wZ\u002BLGfI6wA9o/lrh5ufelLl8vuISjng71s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 21:17:17 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1H8Zd9WIBB8WSpLiXjeG\u002BnXeALjBM2R47/L5T6lFYnY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1205"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221H8Zd9WIBB8WSpLiXjeG\u002BnXeALjBM2R47/L5T6lFYnY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 23:44:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ECommerce.Webui/css/class.a3tok5dxcv.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\class.css'))</AssetFile>
