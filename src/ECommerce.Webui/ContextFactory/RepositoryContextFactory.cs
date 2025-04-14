@@ -26,8 +26,12 @@ namespace ECommerce.Webui.ContextFactory
                 .AddJsonFile("appsettings.json")
                 .Build();
 
+            // //DbContextOptionsBuilder
+            // var connectionString = configuration.GetConnectionString("PostgreSqlConnection");
             //DbContextOptionsBuilder
-            var connectionString = configuration.GetConnectionString("PostgreSqlConnection");
+            var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PostgreSqlConnection") 
+                                  ?? configuration.GetConnectionString("PostgreSqlConnection");
+
             if(string.IsNullOrEmpty(connectionString))
             {
                 throw new InvalidOperationException("Bağlatı dizesi bulunamadı.");

@@ -35,9 +35,9 @@
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 WORKDIR /app
 EXPOSE 80  
-# HTTP trafiği için 80 portunu dışarıya aç
+# HTTP traf
 EXPOSE 443  
-# HTTPS trafiği için gerekirse 443 portunu da açabilirsiniz
+# HTTPS trafiği için 443 portunu da açabilirsiniz
 
 # Derleme ortamı - .NET 9.0 SDK imajı
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
@@ -60,6 +60,10 @@ COPY . .
 WORKDIR "/src/src/ECommerce.Webui"
 RUN dotnet build "ECommerce.Webui.csproj" -c Release -o /app/build
 
+# Entity Framework Core tools yükle (migration'lar için)
+RUN dotnet tool install --global dotnet-ef
+ENV PATH="${PATH}:/root/.dotnet/tools"
+
 # Yayınlama aşaması - derlenen uygulamayı yayınla
 FROM build AS publish
 RUN dotnet publish "ECommerce.Webui.csproj" -c Release -o /app/publish /p:UseAppHost=false
@@ -71,19 +75,24 @@ WORKDIR /app
 # Yayınlanan dosyaları kopyala
 COPY --from=publish /app/publish .
 
+# PostgreSQL istemci kütüphanelerini yükle
+RUN apt-get update && apt-get install -y postgresql-client bash
+
 # Uygulama için gerekli ortam değişkenleri
 ENV ASPNETCORE_URLS=http://+:80
 ENV ASPNETCORE_ENVIRONMENT=Production
 
-# Veritabanı dosyası kopyalama (SQLite kullanıyorsanız)
-# COPY ECommerceDb /app/ECommerceDb
+# Başlangıç betiği oluştur
+RUN echo '#!/bin/bash \n\
+# Veritabanı bağlantısını bekle \n\
+echo "Veritabanı bağlantısı bekleniyor..." \n\
+sleep 10 \n\
+# Uygulamayı başlat \n\
+dotnet ECommerce.Webui.dll' > /app/start.sh && chmod +x /app/start.sh
 
-# Migration'ları çalıştır (isteğe bağlı, genellikle konteyner başlatılırken veya ayrı bir adımda yapılır)
-# Bu adım, Entity Framework Core CLI araçlarının yüklü olmasını gerektirir
-# NOT: Üretim ortamında migration'ları konteyner içinde çalıştırmak yerine, 
-# CI/CD pipeline'ında veya ayrı bir adımda çalıştırmak daha güvenlidir
-# RUN dotnet tool install --global dotnet-ef
-# RUN dotnet ef database update --project ECommerce.Webui.csproj
+# Başlangıç betiğini çalıştır
+ENTRYPOINT ["/app/start.sh"]
 
-# Uygulamayı çalıştır
-ENTRYPOINT ["dotnet", "ECommerce.Webui.dll"]
+
+
+
