@@ -27,7 +27,7 @@ namespace ECommerce.Webui.ContextFactory
                 .Build();
 
             //DbContextOptionsBuilder
-            var connectionString = configuration.GetConnectionString("SqlServerConnection");
+            var connectionString = configuration.GetConnectionString("PostgreSqlConnection");
             if(string.IsNullOrEmpty(connectionString))
             {
                 throw new InvalidOperationException("Bağlatı dizesi bulunamadı.");
@@ -36,7 +36,7 @@ namespace ECommerce.Webui.ContextFactory
             // güncel pomelo.EntityFrameworkcore.mysql 9.0.3 için doğru kullanım
             var builder = new DbContextOptionsBuilder<DataContext>();
 
-            builder.UseSqlServer(connectionString, proje => proje.MigrationsAssembly("ECommerce.Webui"));
+            builder.UseNpgsql(connectionString, proje => proje.MigrationsAssembly("ECommerce.Webui"));
             //.UseSqlite(connectionString, proje => proje.MigrationsAssembly("ECommerce.Webui"));
                         
             return new DataContext(builder.Options);

@@ -15,16 +15,17 @@ services:
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
-      - key: ConnectionStrings__DefaultConnection
+      - key: ConnectionStrings__PostgreSqlConnection
         fromService:
-          type: database
+          type: postgres
           name: ecommerce-db
           property: connectionString
     healthCheckPath: /health # Sağlık kontrolü için endpoint (uygulamanızda varsa)
 
 databases:
-  # SQL Server veritabanı
+  # PostgreSQL veritabanı
   - name: ecommerce-db
     plan: free
-    type: mssql
-    version: "2022"
+    type: postgres
+    version: "15" # PostgreSQL sürümü (Render'ın desteklediği en son sürümü kullanabilirsiniz)
+    ipAllowList: [] # Tüm IP'lere izin ver (boş bırakırsanız)

@@ -22,7 +22,7 @@ namespace ECommerce.Webui.Extensions
         public static void ConfigureSqlContext(this IServiceCollection services,IConfiguration configuration){
 
             services.AddDbContext<DataContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("SqlServerConnection")));
+                options.UseNpgsql(configuration.GetConnectionString("PostgreSqlConnection")));
             
             services.AddScoped<IServiceManager,ServiceManager>();
             services.AddScoped<IRepositoryManager,RepositoryManager>();
