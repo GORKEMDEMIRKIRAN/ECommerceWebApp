@@ -4,7 +4,7 @@
 //========================
 using System;
 using Microsoft.EntityFrameworkCore;
-using System.Configuration;
+using Microsoft.Extensions.Configuration;
 //========================
 using Ecommerce.Core.Entities;
 using Ecommerce.Data.SeedData;
@@ -25,15 +25,20 @@ namespace Ecommerce.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Category için Identity özelliğini kapatma
             modelBuilder.Entity<Category>()
                 .Property(c=>c.CategoryId)
-                .ValueGeneratedOnAdd();
-            // modelBuilder.Entity<Product>()
-            //     .Property(c=>c.ProductId)
-            //     .ValueGeneratedOnAdd();
+                .ValueGeneratedNever();
+
+            
+            modelBuilder.Entity<Product>()
+                .Property(c=>c.ProductId)
+                .ValueGeneratedNever();
            
+           // Product için Identity özelliğini kapatma
             modelBuilder.Entity<ProductCategory>()
                 .HasKey(c=> new{ c.CategoryId, c.ProductId});
+               
 
             // SeedDatabase.ComputerProductData() metodundan listeleri alıyoruz
             // var (productList, productCategoryList) = SeedDatabase.ComputerProductData();

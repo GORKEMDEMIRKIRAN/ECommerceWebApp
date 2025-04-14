@@ -27,15 +27,18 @@ namespace ECommerce.Webui.ContextFactory
                 .Build();
 
             //DbContextOptionsBuilder
-            var connectionString = configuration.GetConnectionString("SqLite");
+            var connectionString = configuration.GetConnectionString("SqlServerConnection");
             if(string.IsNullOrEmpty(connectionString))
             {
                 throw new InvalidOperationException("Bağlatı dizesi bulunamadı.");
             }
 
-            var builder = new DbContextOptionsBuilder<DataContext>()
-                .UseSqlite(connectionString, proje => proje.MigrationsAssembly("ECommerce.Webui"));
+            // güncel pomelo.EntityFrameworkcore.mysql 9.0.3 için doğru kullanım
+            var builder = new DbContextOptionsBuilder<DataContext>();
 
+            builder.UseSqlServer(connectionString, proje => proje.MigrationsAssembly("ECommerce.Webui"));
+            //.UseSqlite(connectionString, proje => proje.MigrationsAssembly("ECommerce.Webui"));
+                        
             return new DataContext(builder.Options);
         }
     }

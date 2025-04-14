@@ -3,21 +3,29 @@
 
 @* partialasync product bilgisi vererek ürünü bilgisini veririz. *@
 
-@model Product
+@model ProductListViewModel
 
-<div class="cols">
-    <a asp-controller="Shop" asp-action="Details" asp-route-id="@Model.ProductId" class="card" id="card">
-        <div class="like btn">
-            <i class="fa-regular fa-heart" id="sembol"></i>
-        </div>
-        <img src="@Model.ImageUrl">
-        <div class="card-body">
-            <p class="taksit">Peşin Fiyatına 9 taksit</p>
-            <p class="name">@Model.Name</p>
-        </div>
-        <div class="btn d-none" id="added">
-            <p class="basket">SEPETE EKLE</p>
-        </div>
-    </a>
-</div>
+@for(var i=0; i<Model.productsData.Count();i++)
+@* @foreach(var mdl in Model.productsData) *@
+{
 
+
+    <div class="cols">
+        <a asp-controller="Shop" asp-action="Details" asp-route-id="@Model.productsData[i].ProductId" class="card" id="card">
+            <div class="like btn">
+                <i class="fa-regular fa-heart" id="sembol"></i>
+            </div>
+            <img src="@Model.productsData[i].ImageUrl">
+            <div class="card-body">
+                <p class="taksit">Peşin Fiyatına 9 taksit</p>
+                <p class="name">@Model.productsData[i].Name</p>
+                <p class="price">@Model.ConvertPrice[i] TL</p>      @* 25.780,59 tl olarak gelir. / bu kısmı tr para birimine dönüştüren metot ile yaptık. / TERCİH EDİLMELİ*@
+                @* <p class="price">@Model.productsData[i].Price</p> *@   @* 25780,59 tl olarak gelir.  / bu database doğrudan aldığımız price değişkeni*@
+            </div>
+            <div class="btn d-none" id="added">
+                <p class="basket">SEPETE EKLE</p>
+            </div>
+        </a>
+    </div>
+
+}

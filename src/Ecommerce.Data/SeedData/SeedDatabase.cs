@@ -175,15 +175,18 @@ namespace Ecommerce.Data.SeedData
         }
         //======================================================
         // B u fonksiyon tl silip float dönüştürüyor.
-        public static float PriceRange(string priceString)
+        public static decimal PriceRange(string priceString)
         {
             // "tl" ayırma
             string priceNumericString=priceString.Replace("TL","").Trim();
-            // Noktayı virgül ile değiştirme
-            priceNumericString=priceNumericString.Replace(".",",");
-            //float dönüştürme
-            float priceFloat=float.Parse(priceNumericString,CultureInfo.InvariantCulture);
-            return priceFloat;
+            // 24.564,45 bu txt örneği
+            // noktayı kaldıralım ve "," yerine nokta verelim.
+            priceNumericString=priceNumericString.Replace(".","");
+            priceNumericString=priceNumericString.Replace(",",".");
+            // sonucunda 24565.45 olarak database geçiyor decimal olarak database aktarıyoruz.
+            //decimal dönüştürme
+            decimal priceDecimal=decimal.Parse(priceNumericString,CultureInfo.InvariantCulture);
+            return priceDecimal;
         }
         
         

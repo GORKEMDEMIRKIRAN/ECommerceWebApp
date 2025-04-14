@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>44kkp14xxv</Fingerprint>
-      <Integrity>1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY=</Integrity>
+      <Fingerprint>d6twjq8k1k</Fingerprint>
+      <Integrity>S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cards.css'))</OriginalItemSpec>

@@ -22,6 +22,8 @@ namespace ECommerce.Webui.Models
     {
         public List<Product>? productsData {get;set;}
         public PageInfo? PageInfo {get;set;}
+        // veri tabanından aldığımız double price türkiye fiyatına çevirerek string olarak aldık.
+        public List<string> ConvertPrice {get;set;}
     }
 
     public class PageInfo
@@ -31,9 +33,17 @@ namespace ECommerce.Webui.Models
         public int CurrentPage {get;set;}
         public string? CurrentCategory {get;set;}
 
-        public int TotalPages()
+        // public int TotalPages()
+        // {
+        //     return (int)Math.Ceiling((decimal)TotalItems/ItemsPerPage);
+
+        // }
+        public int TotalPages
         {
-            return (int)Math.Ceiling((decimal)TotalItems/ItemsPerPage);
+            get
+            {
+                return (int)Math.Ceiling((decimal)TotalItems / ItemsPerPage);
+            }
         }
     }
 
@@ -41,6 +51,8 @@ namespace ECommerce.Webui.Models
     {
         public Product? product {get;set;}
         public List<Category>? categories {get;set;}
+        // veri tabanından aldığımız double price türkiye fiyatına çevirerek string olarak aldık.
+        public string ConvertPrice {get;set;}
     }
 
 

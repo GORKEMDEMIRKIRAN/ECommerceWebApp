@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ATxhQPlqJaMRML3ZgPbu8/R+SmTZe0L5Ji/sG2TyDuw=",
+  "Hash": "9u/MwRYjw2W9+dc5QOZCGCpX/1DQLyLIK/fev+cp+pU=",
   "Source": "ECommerce.Webui",
   "BasePath": "_content/ECommerce.Webui",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\class.css"
     },
     {
-      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-44kkp14xxv.gz",
+      "Identity": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-d6twjq8k1k.gz",
       "SourceId": "ECommerce.Webui",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ECommerce.Webui",
-      "RelativePath": "css/cards#[.{fingerprint=44kkp14xxv}]?.css.gz",
+      "RelativePath": "css/cards#[.{fingerprint=d6twjq8k1k}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0u1iphi5ff",
-      "Integrity": "OCm82JKpux2OBl6G0+so662xBqWqx93k8V/ZrM5OjwI=",
+      "Fingerprint": "920mtoebpe",
+      "Integrity": "0eZ2LARela1BdWK5tepR6I17afc7xaQHvT8wMgU8sR4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "44kkp14xxv",
-      "Integrity": "1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY=",
+      "Fingerprint": "d6twjq8k1k",
+      "Integrity": "S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\cards.css"
@@ -271,13 +271,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/cards.44kkp14xxv.css",
-      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-44kkp14xxv.gz",
+      "Route": "css/cards.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-d6twjq8k1k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002227171492"
+          "Quality": "0.002202643172"
         }
       ],
       "ResponseHeaders": [
@@ -287,19 +287,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "448"
+          "Value": "453"
         },
         {
           "Name": "ETag",
-          "Value": "\"OCm82JKpux2OBl6G0+so662xBqWqx93k8V/ZrM5OjwI=\""
+          "Value": "\"0eZ2LARela1BdWK5tepR6I17afc7xaQHvT8wMgU8sR4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 23:44:13 GMT"
+          "Value": "Sun, 30 Mar 2025 19:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -315,26 +315,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY=\""
+          "Value": "W/\"S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "44kkp14xxv"
-        },
-        {
-          "Name": "label",
-          "Value": "css/cards.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY="
+          "Value": "sha256-S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0="
         }
       ]
     },
     {
-      "Route": "css/cards.44kkp14xxv.css",
+      "Route": "css/cards.css",
       "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -344,7 +336,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1205"
+          "Value": "1242"
         },
         {
           "Name": "Content-Type",
@@ -352,11 +344,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY=\""
+          "Value": "\"S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 23:44:13 GMT"
+          "Value": "Sun, 30 Mar 2025 19:50:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0="
+        }
+      ]
+    },
+    {
+      "Route": "css/cards.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-d6twjq8k1k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0eZ2LARela1BdWK5tepR6I17afc7xaQHvT8wMgU8sR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 19:50:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0eZ2LARela1BdWK5tepR6I17afc7xaQHvT8wMgU8sR4="
+        }
+      ]
+    },
+    {
+      "Route": "css/cards.d6twjq8k1k.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-d6twjq8k1k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002202643172"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "453"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0eZ2LARela1BdWK5tepR6I17afc7xaQHvT8wMgU8sR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 19:50:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d6twjq8k1k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cards.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0="
+        }
+      ]
+    },
+    {
+      "Route": "css/cards.d6twjq8k1k.css",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 19:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -366,7 +503,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "44kkp14xxv"
+          "Value": "d6twjq8k1k"
         },
         {
           "Name": "label",
@@ -374,13 +511,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY="
+          "Value": "sha256-S4mGN8XKiu39kF4ASsPIaqlLW5zAetBNR9KgepBszt0="
         }
       ]
     },
     {
-      "Route": "css/cards.44kkp14xxv.css.gz",
-      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-44kkp14xxv.gz",
+      "Route": "css/cards.d6twjq8k1k.css.gz",
+      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-d6twjq8k1k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -389,7 +526,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "448"
+          "Value": "453"
         },
         {
           "Name": "Content-Type",
@@ -397,11 +534,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OCm82JKpux2OBl6G0+so662xBqWqx93k8V/ZrM5OjwI=\""
+          "Value": "\"0eZ2LARela1BdWK5tepR6I17afc7xaQHvT8wMgU8sR4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 23:44:13 GMT"
+          "Value": "Sun, 30 Mar 2025 19:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -419,7 +556,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "44kkp14xxv"
+          "Value": "d6twjq8k1k"
         },
         {
           "Name": "label",
@@ -427,144 +564,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OCm82JKpux2OBl6G0+so662xBqWqx93k8V/ZrM5OjwI="
-        }
-      ]
-    },
-    {
-      "Route": "css/cards.css",
-      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-44kkp14xxv.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002227171492"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "448"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OCm82JKpux2OBl6G0+so662xBqWqx93k8V/ZrM5OjwI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 23:44:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY="
-        }
-      ]
-    },
-    {
-      "Route": "css/cards.css",
-      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\wwwroot\\css\\cards.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1205"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 23:44:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1H8Zd9WIBB8WSpLiXjeG+nXeALjBM2R47/L5T6lFYnY="
-        }
-      ]
-    },
-    {
-      "Route": "css/cards.css.gz",
-      "AssetFile": "C:\\Users\\gorke\\Desktop\\GITHUB-SECTIONS\\ECommerceApp\\src\\ECommerce.Webui\\obj\\Debug\\net9.0\\compressed\\pgk9wuxz0w-44kkp14xxv.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "448"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OCm82JKpux2OBl6G0+so662xBqWqx93k8V/ZrM5OjwI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 23:44:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OCm82JKpux2OBl6G0+so662xBqWqx93k8V/ZrM5OjwI="
+          "Value": "sha256-0eZ2LARela1BdWK5tepR6I17afc7xaQHvT8wMgU8sR4="
         }
       ]
     },

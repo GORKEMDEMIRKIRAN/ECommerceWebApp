@@ -3,6 +3,7 @@
 //================================
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 //================================
 using ECommerce.Webui.Extensions;
 using Ecommerce.Data;
@@ -17,6 +18,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // servicesextensions ekleyelim.
+// mysql bağlantısı için serviceextensions kullanımı
+
+// MySql.EntityFrameworkCore.Extensions namespace'i artık gerekli değil, çünkü güncel sürümlerde
+// UseMySQL metodu doğrudan Microsoft.EntityFrameworkCore namespace'i altında extension metod olarak tanımlanmıştır.
+
 builder.Services.ConfigureSqlContext(builder.Configuration);
 
 
@@ -31,7 +37,6 @@ if(app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -53,7 +58,11 @@ app.MapControllerRoute(
     pattern:"Shop/{action}/{category}/{page?}",
     defaults: new {controller="Shop",action="List"}
 ); 
-
+app.MapControllerRoute(
+    name:"shopdetails",
+    pattern:"Shop/{action}/{id}",
+    defaults: new {controller="Shop",action="Details"}
+);
 
 //====================================================
 // Verileri seedleyin

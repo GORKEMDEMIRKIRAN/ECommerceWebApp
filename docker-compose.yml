@@ -1,0 +1,83 @@
+version: '3.8'  # Docker Compose dosya formatı sürümü
+
+services:
+  # Web uygulaması servisi
+  ecommerce-app:
+    build:
+      context: .  # Yapı bağlamı olarak mevcut dizini kullan
+      dockerfile: Dockerfile  # Kullanılacak Dockerfile'ı belirt
+    container_name: ecommerce-app  # Konteynere özel bir isim ver
+    ports:
+      - "5000:80"  # Dışarıdan 5000 portu üzerinden erişim, içeride 80 portu
+    depends_on:
+      - db  # Veritabanı servisinin önce başlatılmasını sağla
+    environment:
+      # Veritabanı bağlantı dizesi - SQL Server için
+      - ConnectionStrings__DefaultConnection=Server=db;Database=ECommerceDb;User=sa;Password=YourStrongPassword!;TrustServerCertificate=True;
+      # Uygulama ortamı
+      - ASPNETCORE_ENVIRONMENT=Production
+    restart: unless-stopped  # Konteyner çöktüğünde otomatik olarak yeniden başlat
+    networks:
+      - ecommerce-network  # Kullanılacak ağ
+    # Veritabanı migration'larını çalıştırmak için (isteğe bağlı)
+    command: >
+      /bin/bash -c "
+        dotnet tool install --global dotnet-ef &&
+        dotnet ef database update &&
+        dotnet ECommerce.Webui.dll
+      "
+
+  # Veritabanı servisi - SQL Server
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest  # SQL Server 2022 imajı
+    container_name: ecommerce-db  # Konteynere özel bir isim ver
+    environment:
+      - ACCEPT_EULA=Y  # Lisans anlaşmasını kabul et
+      - SA_PASSWORD=YourStrongPassword!  # SA kullanıcısı için şifre (güçlü olmalı)
+      - MSSQL_PID=Express  # SQL Server sürümü (Express, Developer, Standard, Enterprise)
+    ports:
+      - "1433:1433"  # SQL Server port yönlendirmesi
+    volumes:
+      - db-data:/var/opt/mssql  # Veritabanı verilerini kalıcı hale getir
+    restart: unless-stopped  # Konteyner çöktüğünde otomatik olarak yeniden başlat
+    networks:
+      - ecommerce-network  # Kullanılacak ağ
+
+  # Redis önbellek servisi (isteğe bağlı, performans için)
+  # redis:
+  #   image: redis:alpine
+  #   container_name: ecommerce-redis
+  #   ports:
+  #     - "6379:6379"
+  #   volumes:
+  #     - redis-data:/data
+  #   restart: unless-stopped
+  #   networks:
+  #     - ecommerce-network
+
+networks:
+  ecommerce-network:  # Servisler arası iletişim için özel ağ tanımı
+    driver: bridge  # Bridge ağ sürücüsü kullan
+
+volumes:
+  db-data:  # Veritabanı verilerini saklamak için kalıcı volume
+  # redis-data:  # Redis verilerini saklamak için kalıcı volume (isteğe bağlı)
+
+
+
+# Karşılaştırma ve İyileştirmeler
+# Çok Aşamalı Yapı: Her iki Dockerfile da çok aşamalı (multi-stage) yapı kullanıyor, bu iyi bir pratiktir ve final imajın boyutunu küçültür.
+
+# Bağımlılık Önbelleği: Yeni Dockerfile'da, önce proje dosyalarını kopyalayıp bağımlılıkları yüklüyoruz. Bu, Docker'ın katmanlı önbelleğinden yararlanarak, kaynak kodda değişiklik olsa bile bağımlılıkları yeniden yüklemek zorunda kalmadan derleme süresini hızlandırır.
+
+# Ortam Değişkenleri: Yeni Dockerfile'a ASPNETCORE_URLS ve ASPNETCORE_ENVIRONMENT gibi ortam değişkenleri ekledim, bu uygulamanın doğru şekilde yapılandırılmasını sağlar.
+
+# Migration Yaklaşımı: Migration'ları Dockerfile içinde çalıştırmak yerine, docker-compose.yml dosyasında bir komut olarak veya Jenkins pipeline'ında ayrı bir adım olarak çalıştırmayı önerdim. Bu, daha esnek ve güvenli bir yaklaşımdır.
+
+# Ağ ve Volume Yapılandırması: docker-compose.yml dosyasında, servisler arası iletişim için özel bir ağ ve verilerin kalıcılığı için volume'lar tanımladım.
+
+# İsteğe Bağlı Servisler: docker-compose.yml dosyasında, isteğe bağlı olarak Redis gibi ek servisler eklenebilir.
+
+# CI/CD Pipeline: Jenkins pipeline dosyasında, imaj oluşturma, Docker Hub'a gönderme ve dağıtım adımlarını detaylı olarak tanımladım.
+
+# Bu yapılandırma, modern .NET Core uygulamaları için Docker ve CI/CD en iyi uygulamalarını takip ediyor ve projenizin güvenli, verimli ve ölçeklenebilir bir şekilde dağıtılmasını sağlayacaktır.

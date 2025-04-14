@@ -1,0 +1,30 @@
+
+# Docker Compose: Render, doğrudan docker-compose.yml dosyasını desteklemez. Bunun yerine,
+# render.yaml dosyası ile servislerinizi tanımlamanız gerekir.
+
+services:
+  # Web uygulaması
+  - type: web
+    name: ecommerce-app
+    env: docker
+    plan: free
+    repo: https://github.com/GORKEMDEMIRKIRAN/ECommerceWebApp.git # GitHub repo URL'nizi buraya yazın
+    branch: main # Ana branch'inizi belirtin
+    dockerfilePath: ./Dockerfile # Dockerfile'ın yolu
+    dockerContext: . # Docker build context
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ConnectionStrings__DefaultConnection
+        fromService:
+          type: database
+          name: ecommerce-db
+          property: connectionString
+    healthCheckPath: /health # Sağlık kontrolü için endpoint (uygulamanızda varsa)
+
+databases:
+  # SQL Server veritabanı
+  - name: ecommerce-db
+    plan: free
+    type: mssql
+    version: "2022"
