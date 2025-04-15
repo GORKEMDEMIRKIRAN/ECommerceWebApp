@@ -5,6 +5,8 @@
 using System;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
+
+using Npgsql;
 //=========================
 using Ecommerce.Data;
 using Ecommerce.Data.Repositories.DataAccess.EfCore;

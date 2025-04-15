@@ -7,6 +7,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+
+using Npgsql;
 //=============================
 using Ecommerce.Data;
 //=============================
@@ -30,13 +32,13 @@ namespace ECommerce.Webui.ContextFactory
             // Tüm olası bağlantı dizesi kaynaklarını kontrol et
             string connectionString = null;
 
-            
+
             // //DbContextOptionsBuilder
             // var connectionString = configuration.GetConnectionString("PostgreSqlConnection");
             //DbContextOptionsBuilder
 
             // 1. Doğrudan ortam değişkeni olarak bağlantı dizesi
-            var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PostgreSqlConnection");
+            connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PostgreSqlConnection");
                                  // ?? configuration.GetConnectionString("PostgreSqlConnection");
 
             //================================
