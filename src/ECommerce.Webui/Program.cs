@@ -14,6 +14,10 @@ using Ecommerce.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+
+
 // MVC Hizmetlerini ekleme
 builder.Services.AddControllersWithViews();
 
@@ -27,6 +31,8 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 
 
 var app = builder.Build();
+
+
 
 // Geliştirme ortamında hata sayfalarını etkinleştirme
 if(app.Environment.IsDevelopment())
@@ -66,14 +72,35 @@ app.MapControllerRoute(
 
 //====================================================
 // Verileri seedleyin
-using (var scope = app.Services.CreateScope())
+try
 {
-    var context = scope.ServiceProvider.GetRequiredService<DataContext>();
-    context.Database.Migrate(); // Migration'ları uygulayın
-    // Veritabanı boşsa veya belirli bir koşul sağlanıyorsa SeedData() metodunu çağırın
-    if (!context.products.Any()) // Örnek koşul: Products tablosu boşsa
+    using (var scope = app.Services.CreateScope())
     {
-        context.SeedData();
+        var context = scope.ServiceProvider.GetRequiredService<DataContext>();
+        
+        // Bağlantı dizesini yazdır
+        Console.WriteLine($"Kullanılan bağlantı dizesi: {context.Database.GetConnectionString()}");
+        
+        // Migration'ları uygulayın
+        Console.WriteLine("Migrations uygulanıyor...");
+        context.Database.Migrate();
+        
+        // Veritabanı boşsa veya belirli bir koşul sağlanıyorsa SeedData() metodunu çağırın
+        if (!context.products.Any()) // Örnek koşul: Products tablosu boşsa
+        {
+            Console.WriteLine("Veritabanı seed ediliyor...");
+            context.SeedData();
+        }
+    }
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Veritabanı işlemleri sırasında hata oluştu: {ex.Message}");
+    Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+    
+    if (ex.InnerException != null)
+    {
+        Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
     }
 }
 //====================================================
